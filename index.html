@@ -78,15 +78,11 @@
                             <nav class="cover-navigation cover-navigation--primary">
                                 <ul class="navigation">
                                     <li class="navigation__item">
-                                        <a onclick="Blog()" target="_blank" class="blog-button">
+                                        <a herf="https://aiici.top" target="_blank" class="blog-button">
                                             <div>博客</div>
                                         </a>
                                     </li>
-                                    <script>
-                                        function Blog() {
-                                            location.replace("https://asnit.top")
-                                          }
-                                        </script>
+                         
                                     <li class="navigation__item">
                                         <!--<a onclick="update()" class="blog-button">-->
                                         <a onclick="yl()" target="_blank" class="blog-button">
@@ -95,8 +91,13 @@
                                     </li>
                                     <script>
                                         function yl() {
-                                            location.replace("https://asnit.top/yl")
-                                          }
+                                            Swal.fire({
+                                                title: "提示",
+                                                text: "临时下架……",
+                                                confirmButtonText: "好的",
+
+                                            })
+                                        }
                                           </script>
                                     <li class="navigation__item">
                                         <a onclick="api()" target="_blank" class="blog-button">
@@ -119,10 +120,6 @@
                                         </a>
                                     </li>
                                     <script>
-                                        function music() {
-                                            location.replace("https://asnit.top/jd_tb.zip")
-                                          }
-                                          </script>
                                     <li class="navigation__item">
                                         <a onclick="videos()" class="blog-button">
                                             <div>看电影</div>
@@ -130,8 +127,13 @@
                                     </li>
                                     <script>
                                     function videos() {
-                                        location.replace("https://v.asnit.top")
-                                      }
+                                            Swal.fire({
+                                                title: "提示",
+                                                text: "站点被封……",
+                                                confirmButtonText: "好的",
+
+                                            })
+                                        }
                                       </script>
                                 </ul>
                             </nav>
